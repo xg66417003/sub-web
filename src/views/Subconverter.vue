@@ -6,7 +6,6 @@
           <div slot="header">
             骨朵摸您：https://vpn-4.xyz
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
-            <svg-icon icon-class="telegram" style="margin-left: 20px" @click="https://vpn-4.xyz" />
 	    <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
