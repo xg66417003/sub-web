@@ -7,7 +7,6 @@
 	    现在订阅转换：https://api.vpn-4.xyz
             骨朵摸您官网：https://vpn-4.xyz
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
-	    <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject1" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
@@ -519,9 +518,6 @@ export default {
     },
     goToProject() {
       window.open(project);
-    },
-    goToProject1() {
-      window.open(project1);
     },
 	gotoTgChannel() {
       window.open(tgBotLink);
