@@ -6,7 +6,7 @@
           <div slot="header">
             骨朵摸您：https://vpn-4.xyz
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
-	    <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
+            <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
           </div>
@@ -497,7 +497,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "骨朵摸您-订阅转换";
+    document.title = "骨朵模您-订阅转换";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
