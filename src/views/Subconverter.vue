@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            骨朵摸您：https://vpn-4.xyz
+            <a href="https://vpn-4.xyz">本API由 骨朵摸您</a>
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
