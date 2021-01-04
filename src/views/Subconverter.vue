@@ -280,10 +280,10 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "ACL4SSR_Online_Mini 精简版",
+            label: "默认",
             options: [
               {
-                label: "不选,由接口提供方提供",
+                label: "ACL4SSR_Online_Mini 精简版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
               }
             ]
