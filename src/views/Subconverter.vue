@@ -283,19 +283,14 @@ export default {
             label: "默认",
             options: [
               {
-                label: "ACL4SSR_Online_Mini 精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
+                label: "不选,由接口提供方提供",
+                value: ""
               }
             ]
           },
           {
             label: "ACL4SSR",
             options: [
-	    {
-                label: "ACL4SSR_Online_Mini 精简版 (与Github同步)",
-                value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
-              },
               {
                 label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
                 value:
@@ -316,7 +311,11 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoReject.ini"
               },
-              
+              {
+                label: "ACL4SSR_Online_Mini 精简版 (与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
+              },
               {
                 label: "ACL4SSR_Online_Mini_AdblockPlus.ini 精简版 更多去广告 (与Github同步)",
                 value:
