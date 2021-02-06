@@ -274,7 +274,7 @@ export default {
             label: "默认",
             options: [
               {
-                label: "不选,由接口提供方提供",
+                label: "不选，由接口提供方提供",
                 value: ""
               }
             ]
@@ -282,6 +282,81 @@ export default {
           {
             label: "ACL4SSR",
             options: [
+              {
+                label: "ACL4SSR_Online 默认版 分组比较全(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+              },
+              {
+                label: "ACL4SSR_Online_AdblockPlus 更多去广告(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini"
+              },
+              {
+                label: "ACL4SSR_Online_NoAuto 无自动测速(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoAuto.ini"
+              },
+              {
+                label: "ACL4SSR_Online_NoReject 无广告拦截规则(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoReject.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Mini 精简版(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Mini_AdblockPlus.ini 精简版 更多去广告(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Mini_NoAuto.ini 精简版 不带自动测速(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Mini_Fallback.ini 精简版 带故障转移(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_Fallback.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Mini_MultiMode.ini 精简版 自动测速、故障转移、负载均衡(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Mini_MultiCountry.ini 精简版 带港美日国家(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiCountry.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Full 全分组 重度用户使用(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Full_MultiMode.ini 全分组 多模式 重度用户使用(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Full_NoAuto.ini 全分组 无自动测速 重度用户使用(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Full_AdblockPlus 全分组 重度用户使用 更多去广告(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
+              },
+              {
+                label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量(与Github同步)",
+                value:
+                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
+              },
               {
                 label: "ACL4SSR 本地 默认版 分组比较全",
                 value: "config/ACL4SSR.ini"
@@ -336,6 +411,79 @@ export default {
                 label: "Urltest",
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/urltest.ini"
+              }
+            ]
+          },
+          {
+            label: "customized",
+            options: [
+              {
+                label: "Nirvana",
+                value:
+                  "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/config/V2rayPro.ini"
+              },
+              {
+                label: "V2Pro",
+                value:
+                  "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/V2Pro.ini"
+              },
+              {
+              label: "史迪仔-自动测速",
+              value: "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/Stitch.ini"
+              },
+              {
+                label: "史迪仔-负载均衡",
+                value: "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/Stitch-Balance.ini"
+              },
+              {
+                label: "Maying",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/maying.ini"
+              },
+              {
+                label: "rixCloud",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/rixcloud.ini"
+              },
+              {
+                label: "YoYu",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/yoyu.ini"
+              },
+              {
+                label: "Ytoo",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/ytoo.ini"
+              },
+              {
+                label: "NyanCAT",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/nyancat.ini"
+              },
+              {
+                label: "Nexitally",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/nexitally.ini"
+              },
+              {
+                label: "SoCloud",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/socloud.ini"
+              },
+              {
+                label: "ARK",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/ark.ini"
+              },
+              {
+                label: "ssrCloud",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/ssrcloud.ini"
+              },
+              {
+                label: "贼船",
+                value:
+                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/zeichuan.ini"
               }
             ]
           },
