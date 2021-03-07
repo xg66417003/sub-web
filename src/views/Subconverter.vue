@@ -247,10 +247,10 @@ export default {
 
       options: {
         clientTypes: {
-          "Clash新参数": "clash&new_name=true",
-          "ClashR新参数": "clashr&new_name=true",
-          Clash: "clash",
-          ClashR: "clashr",
+          "Clash新版本": "clash&new_name=true",
+          "ClashR新版本": "clashr&new_name=true",
+          Clash: "clash老版本",
+          ClashR: "clashr老版本",
           Surge2: "surge&ver=2",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
