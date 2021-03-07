@@ -264,7 +264,7 @@ export default {
           v2ray: "v2ray"
         },
         customBackend: {
-          "sub-beta.now.sh (自动编译最新版本后端）": "https://api.vpn-4.xyz/sub?",
+          "https://api.vpn-4.xyz (自动编译最新版本后端）": "https://api.vpn-4.xyz/sub?",
         },
         backendOptions: [
           { value: "https://api.vpn-4.xyz/sub?" },
@@ -399,39 +399,6 @@ export default {
               }
             ]
           },
-          {
-            label: "universal",
-            options: [
-              {
-                label: "No-Urltest",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/no-urltest.ini"
-              },
-              {
-                label: "Urltest",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/universal/urltest.ini"
-              }
-            ]
-          },
-          
-          {
-            label: "Special",
-            options: [
-              {
-                label: "NeteaseUnblock(仅规则，No-Urltest)",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/netease.ini"
-              },
-              {
-                label: "Basic(仅GEOIP CN + Final)",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
-              }
-            ]
-          }
-        ]
-      },
       form: {
         sourceSubUrl: "",
         clientType: "",
