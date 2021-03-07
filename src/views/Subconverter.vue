@@ -264,7 +264,7 @@ export default {
           v2ray: "v2ray"
         },
         customBackend: {
-          "https://api.vpn-4.xyz (自动编译最新版本后端）": "https://api.vpn-4.xyz/sub?",
+          "api.vpn-4.xyz (自动编译最新版本后端）": "https://api.vpn-4.xyz/sub?",
         },
         backendOptions: [
           { value: "https://api.vpn-4.xyz/sub?" },
@@ -399,6 +399,8 @@ export default {
               }
             ]
           },
+        ]
+      },
       form: {
         sourceSubUrl: "",
         clientType: "",
