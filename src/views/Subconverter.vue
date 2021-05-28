@@ -21,7 +21,7 @@
                   v-model="form.sourceSubUrl"
                   type="textarea"
                   rows="3"
-                  placeholder="支持订阅或ss/ssr/vmess单链接。多个链接请每行一个或用 | 分隔"
+                  placeholder="这里填写你复制的订阅或ss/ssr/vmess单链接。多个链接请每行一个或用 | 分隔"
                   @blur="saveSubUrl"
                 />
               </el-form-item>
@@ -264,7 +264,7 @@ export default {
           v2ray: "v2ray"
         },
         customBackend: {
-          "api.vpn-4.xyz (自动编译最新版本后端）": "https://api.vpn-4.xyz/sub?",
+          "api.vpn-4.xyz (默认别动）": "https://api.vpn-4.xyz/sub?",
         },
         backendOptions: [
           { value: "https://api.vpn-4.xyz/sub?" },
