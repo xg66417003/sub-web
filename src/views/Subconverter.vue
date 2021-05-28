@@ -248,6 +248,7 @@ export default {
       options: {
         clientTypes: {
           "Clash新": "clash&new_name=true",
+          "ClashR新": "clashr&new_name=true",
           Clash: "clash",
           ClashR: "clashr",
           Surge2: "surge&ver=2",
@@ -476,7 +477,7 @@ export default {
     }
   },
   mounted() {
-    this.form.clientType = "clashr&new_name=true";
+    this.form.clientType = "clash&new_name=true";
     this.form.customBackend = "https://api.vpn-4.xyz/sub?";
     this.form.remoteConfig = "config/ACL4SSR_Mini_NoAuto.ini";
     this.getBackendVersion();
