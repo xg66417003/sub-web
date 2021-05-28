@@ -248,7 +248,6 @@ export default {
       options: {
         clientTypes: {
           "Clash新": "clash&new_name=true",
-          "ClashR新": "clashr&new_name=true",
           Clash: "clash",
           ClashR: "clashr",
           Surge2: "surge&ver=2",
