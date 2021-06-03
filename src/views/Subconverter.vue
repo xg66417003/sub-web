@@ -264,10 +264,10 @@ export default {
           v2ray: "v2ray"
         },
         customBackend: {
-          "api.vpn-4.xyz (默认别动）": "https://api.vpn-4.xyz/sub?",
+          "api.muacloud.cloud (默认别动）": "https://api.muacloud.cloud/sub?",
         },
         backendOptions: [
-          { value: "https://api.vpn-4.xyz/sub?" },
+          { value: "https://api.muacloud.cloud/sub?" },
         ],
         remoteConfig: [
           {
@@ -478,7 +478,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash&new_name=true";
-    this.form.customBackend = "https://api.vpn-4.xyz/sub?";
+    this.form.customBackend = "https://api.muacloud.cloud/sub?";
     this.form.remoteConfig = "config/ACL4SSR_Mini_NoAuto.ini";
     this.getBackendVersion();
   },
