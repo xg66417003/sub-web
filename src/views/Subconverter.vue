@@ -315,7 +315,7 @@ export default {
               {
                 label: "ACL4SSR_Online_Mini_NoAuto.ini 精简版 不带自动测速(与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini"
+                  "https://github.com/xg66417003/sub-web/blob/master/ACL4SSR_Online_Full_MultiMode.ini"
               },
               {
                 label: "ACL4SSR_Online_Mini_Fallback.ini 精简版 带故障转移(与Github同步)",
